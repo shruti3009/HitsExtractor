@@ -28,8 +28,8 @@ For example - Hits_coordinates.csv
 
 For example - protein.fa
 
-#### Output: A fasta file containing sequences that 
-correspond to the input coordinate file
+#### Output: 
+A fasta file containing sequences that correspond to the input coordinate file
 [Default: out.fa]
 
 #### USAGE: 
