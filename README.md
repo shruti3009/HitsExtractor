@@ -1,10 +1,11 @@
-#SELECT_HITS
-Author: Shruti Srivastava
+## SELECT_HITS
+     
+### Author: Shruti Srivastava
 
 This script extracts sequences from a FASTA file 
 for each interval defined in a csv file.
 
-Inputs: 
+#### Inputs: 
 1) A hits coordinate f(csv) with columns in this order:
 Query_ID, Query_start, Query_end
 
@@ -26,15 +27,15 @@ SEQ-D,19,30
 
 For example - protein.fa
 
-Output: A fasta file containing sequences that 
+#### Output: A fasta file containing sequences that 
 correspond to the input coordinate file
 [Default: out.fa]
 
-USAGE: 
+#### USAGE: 
 
 python improved_select_hits.py -h [HELP]
 
 python improved_select_hits.py -i <input_filename> -o<output_filename> -p <protein_filename>
 
-For example - 
+#### For example - 
 python improved_select_hits.py -i Hits_coordinates.csv -p protein.fa -o hits.fa
